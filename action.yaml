@@ -1,0 +1,14 @@
+name: Ejercicio de acción javascript
+description: 'Acción de saludo'
+inputs:
+  nombre:
+    required: false
+    type: string
+    default: John Doe
+    description: "Tu nombre para el saludo"
+outputs:
+  saludo:
+    description: Te saludamos por tu nombre
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
